@@ -1,0 +1,383 @@
+UUT_Order|UUT_SOURCE|DeviceA2C|Equipment Function|Serial Number|Station Name||||Product Time|TestStand Name|Login Name|Execution Time|TestScoket|BatchSerialNumber|Error Code|Error Message||||||||||||||TestStatus|
+1|EV|123456|EP|12345612345600007|ADVANTEC-6DF960||||131108092901|Î÷ÍþÐ¡°æ|a  3|9916.000|-1||0|Running Running|||||||||||||Passed|
+Step_Order|Step_Source|Serical_Number|ProductionTime|ErrorCode|ErrorMessage|ModuleTime|TotalTime|StepName|Step_Status|ReportText|Loop_Index|Interactive_Exenum|Num_Loops|Num_Passed|Num_Failed|Ending_Loop_Index|Step_Index|Order_Num|StepGroup|StepType|Step_PassFail|Multiple_SubName|Units|Comp|Limit.Step_Data|Limit.Low|Limit.High|Result_String|Limits_String|
+1|ME|12345612345600007|131108092901|0|Running Running|0.000|0.000|Purge1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Purge1X|MM|NULL|240.788|0|0|NULL|NULL|
+2|ME|12345612345600007|131108092901|0|Running Running|0.000|0.000|Purge1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Purge1Y|MM|NULL|1.046|0|0|NULL|NULL|
+3|ME|12345612345600007|131108092901|0|Running Running|0.000|0.000|Purge1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Z|MM|NULL|52.652|0|0|NULL|NULL|
+4|ME|12345612345600007|131108092901|0|Running Running|0.000|0.000|Purge1|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Dispense Mode|NULL|NULL|0|0|0|Line|NULL|
+5|ME|12345612345600007|131108092901|0|Running Running|0.000|0.000|Purge1|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Valve Type|NULL|NULL|0|0|0|Needle Valve|NULL|
+6|ME|12345612345600007|131108092901|0|Running Running|0.000|0.000|Purge1|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Teach Mode|NULL|NULL|0|0|0|By Nozzle|NULL|
+7|ME|12345612345600007|131108092901|0|Running Running|0.000|0.000|Purge1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Tilt Angle|Deg|NULL|0|0|0|NULL|NULL|
+8|ME|12345612345600007|131108092901|0|Running Running|0.000|0.000|Purge1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Rotation Angle|Deg|NULL|0|0|0|NULL|NULL|
+9|ME|12345612345600007|131108092901|0|Running Running|0.000|0.000|Purge1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Speed|MM/S|NULL|80.000|0|0|NULL|NULL|
+10|ME|12345612345600007|131108092901|0|Running Running|0.000|0.000|Purge1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Pre-Spray|S|NULL|0.000|0|0|NULL|NULL|
+11|ME|12345612345600007|131108092901|0|Running Running|0.000|0.000|Purge1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Pre-On|MM|NULL|0.000|0|0|NULL|NULL|
+12|ME|12345612345600007|131108092901|0|Running Running|0.000|0.000|Purge1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve On Delay|S|NULL|0.000|0|0|NULL|NULL|
+13|ME|12345612345600007|131108092901|0|Running Running|0.000|0.000|Purge1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Spray Gap|MM|NULL|0.000|0|0|NULL|NULL|
+14|ME|12345612345600007|131108092901|0|Running Running|0.000|0.000|Purge1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Pull Back Distance|MM|NULL|0.000|0|0|NULL|NULL|
+15|ME|12345612345600007|131108092901|0|Running Running|0.000|0.000|Purge1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Stay Time|S|NULL|0.000|0|0|NULL|NULL|
+16|ME|12345612345600007|131108092901|0|Running Running|0.000|0.000|Purge1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve On Time|S|NULL|0.300|0|0|NULL|NULL|
+17|ME|12345612345600007|131108092901|0|Running Running|0.000|0.000|Purge1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Shut Off Distance|MM|NULL|0|0|0|NULL|NULL|
+18|ME|12345612345600007|131108092901|0|Running Running|0.000|0.000|Purge1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Start Distance|MM|NULL|0.000|0|0|NULL|NULL|
+19|ME|12345612345600007|131108092901|0|Running Running|0.000|0.000|Purge1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|End Distance|MM|NULL|0.000|0|0|NULL|NULL|
+20|ME|12345612345600007|131108092903|0|Running Running|0.000|0.000|Purge2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Purge2X|MM|NULL|240.788|0|0|NULL|NULL|
+21|ME|12345612345600007|131108092903|0|Running Running|0.000|0.000|Purge2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Purge2Y|MM|NULL|1.046|0|0|NULL|NULL|
+22|ME|12345612345600007|131108092903|0|Running Running|0.000|0.000|Purge2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Z|MM|NULL|52.652|0|0|NULL|NULL|
+23|ME|12345612345600007|131108092903|0|Running Running|0.000|0.000|Purge2|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Dispense Mode|NULL|NULL|0|0|0|Line|NULL|
+24|ME|12345612345600007|131108092903|0|Running Running|0.000|0.000|Purge2|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Valve Type|NULL|NULL|0|0|0|Needle Valve|NULL|
+25|ME|12345612345600007|131108092903|0|Running Running|0.000|0.000|Purge2|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Teach Mode|NULL|NULL|0|0|0|By Nozzle|NULL|
+26|ME|12345612345600007|131108092903|0|Running Running|0.000|0.000|Purge2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Tilt Angle|Deg|NULL|0|0|0|NULL|NULL|
+27|ME|12345612345600007|131108092903|0|Running Running|0.000|0.000|Purge2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Rotation Angle|Deg|NULL|0|0|0|NULL|NULL|
+28|ME|12345612345600007|131108092903|0|Running Running|0.000|0.000|Purge2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Speed|MM/S|NULL|80.000|0|0|NULL|NULL|
+29|ME|12345612345600007|131108092903|0|Running Running|0.000|0.000|Purge2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Pre-Spray|S|NULL|0.000|0|0|NULL|NULL|
+30|ME|12345612345600007|131108092903|0|Running Running|0.000|0.000|Purge2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Pre-On|MM|NULL|0.000|0|0|NULL|NULL|
+31|ME|12345612345600007|131108092903|0|Running Running|0.000|0.000|Purge2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve On Delay|S|NULL|0.000|0|0|NULL|NULL|
+32|ME|12345612345600007|131108092903|0|Running Running|0.000|0.000|Purge2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Spray Gap|MM|NULL|0.000|0|0|NULL|NULL|
+33|ME|12345612345600007|131108092903|0|Running Running|0.000|0.000|Purge2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Pull Back Distance|MM|NULL|0.000|0|0|NULL|NULL|
+34|ME|12345612345600007|131108092903|0|Running Running|0.000|0.000|Purge2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Stay Time|S|NULL|0.000|0|0|NULL|NULL|
+35|ME|12345612345600007|131108092903|0|Running Running|0.000|0.000|Purge2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve On Time|S|NULL|0.300|0|0|NULL|NULL|
+36|ME|12345612345600007|131108092903|0|Running Running|0.000|0.000|Purge2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Shut Off Distance|MM|NULL|0|0|0|NULL|NULL|
+37|ME|12345612345600007|131108092903|0|Running Running|0.000|0.000|Purge2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Start Distance|MM|NULL|0.000|0|0|NULL|NULL|
+38|ME|12345612345600007|131108092903|0|Running Running|0.000|0.000|Purge2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|End Distance|MM|NULL|0.000|0|0|NULL|NULL|
+39|ME|12345612345600007|131108092904|0|Running Running|0.000|0.000|Purge3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Purge3X|MM|NULL|240.788|0|0|NULL|NULL|
+40|ME|12345612345600007|131108092904|0|Running Running|0.000|0.000|Purge3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Purge3Y|MM|NULL|1.046|0|0|NULL|NULL|
+41|ME|12345612345600007|131108092904|0|Running Running|0.000|0.000|Purge3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Z|MM|NULL|52.652|0|0|NULL|NULL|
+42|ME|12345612345600007|131108092904|0|Running Running|0.000|0.000|Purge3|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Dispense Mode|NULL|NULL|0|0|0|Line|NULL|
+43|ME|12345612345600007|131108092904|0|Running Running|0.000|0.000|Purge3|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Valve Type|NULL|NULL|0|0|0|Needle Valve|NULL|
+44|ME|12345612345600007|131108092904|0|Running Running|0.000|0.000|Purge3|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Teach Mode|NULL|NULL|0|0|0|By Nozzle|NULL|
+45|ME|12345612345600007|131108092904|0|Running Running|0.000|0.000|Purge3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Tilt Angle|Deg|NULL|0|0|0|NULL|NULL|
+46|ME|12345612345600007|131108092904|0|Running Running|0.000|0.000|Purge3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Rotation Angle|Deg|NULL|0|0|0|NULL|NULL|
+47|ME|12345612345600007|131108092904|0|Running Running|0.000|0.000|Purge3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Speed|MM/S|NULL|80.000|0|0|NULL|NULL|
+48|ME|12345612345600007|131108092904|0|Running Running|0.000|0.000|Purge3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Pre-Spray|S|NULL|0.000|0|0|NULL|NULL|
+49|ME|12345612345600007|131108092904|0|Running Running|0.000|0.000|Purge3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Pre-On|MM|NULL|0.000|0|0|NULL|NULL|
+50|ME|12345612345600007|131108092904|0|Running Running|0.000|0.000|Purge3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve On Delay|S|NULL|0.000|0|0|NULL|NULL|
+51|ME|12345612345600007|131108092904|0|Running Running|0.000|0.000|Purge3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Spray Gap|MM|NULL|0.000|0|0|NULL|NULL|
+52|ME|12345612345600007|131108092904|0|Running Running|0.000|0.000|Purge3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Pull Back Distance|MM|NULL|0.000|0|0|NULL|NULL|
+53|ME|12345612345600007|131108092904|0|Running Running|0.000|0.000|Purge3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Stay Time|S|NULL|0.000|0|0|NULL|NULL|
+54|ME|12345612345600007|131108092904|0|Running Running|0.000|0.000|Purge3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve On Time|S|NULL|0.300|0|0|NULL|NULL|
+55|ME|12345612345600007|131108092904|0|Running Running|0.000|0.000|Purge3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Shut Off Distance|MM|NULL|0|0|0|NULL|NULL|
+56|ME|12345612345600007|131108092904|0|Running Running|0.000|0.000|Purge3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Start Distance|MM|NULL|0.000|0|0|NULL|NULL|
+57|ME|12345612345600007|131108092904|0|Running Running|0.000|0.000|Purge3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|End Distance|MM|NULL|0.000|0|0|NULL|NULL|
+58|ME|12345612345600007|131108092905|0|Running Running|0.000|0.000|Purge4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Purge4X|MM|NULL|240.788|0|0|NULL|NULL|
+59|ME|12345612345600007|131108092905|0|Running Running|0.000|0.000|Purge4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Purge4Y|MM|NULL|1.046|0|0|NULL|NULL|
+60|ME|12345612345600007|131108092905|0|Running Running|0.000|0.000|Purge4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Z|MM|NULL|52.652|0|0|NULL|NULL|
+61|ME|12345612345600007|131108092905|0|Running Running|0.000|0.000|Purge4|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Dispense Mode|NULL|NULL|0|0|0|Line|NULL|
+62|ME|12345612345600007|131108092905|0|Running Running|0.000|0.000|Purge4|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Valve Type|NULL|NULL|0|0|0|Needle Valve|NULL|
+63|ME|12345612345600007|131108092905|0|Running Running|0.000|0.000|Purge4|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Teach Mode|NULL|NULL|0|0|0|By Nozzle|NULL|
+64|ME|12345612345600007|131108092905|0|Running Running|0.000|0.000|Purge4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Tilt Angle|Deg|NULL|0|0|0|NULL|NULL|
+65|ME|12345612345600007|131108092905|0|Running Running|0.000|0.000|Purge4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Rotation Angle|Deg|NULL|0|0|0|NULL|NULL|
+66|ME|12345612345600007|131108092905|0|Running Running|0.000|0.000|Purge4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Speed|MM/S|NULL|80.000|0|0|NULL|NULL|
+67|ME|12345612345600007|131108092905|0|Running Running|0.000|0.000|Purge4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Pre-Spray|S|NULL|0.000|0|0|NULL|NULL|
+68|ME|12345612345600007|131108092905|0|Running Running|0.000|0.000|Purge4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Pre-On|MM|NULL|0.000|0|0|NULL|NULL|
+69|ME|12345612345600007|131108092905|0|Running Running|0.000|0.000|Purge4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve On Delay|S|NULL|0.000|0|0|NULL|NULL|
+70|ME|12345612345600007|131108092905|0|Running Running|0.000|0.000|Purge4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Spray Gap|MM|NULL|0.000|0|0|NULL|NULL|
+71|ME|12345612345600007|131108092905|0|Running Running|0.000|0.000|Purge4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Pull Back Distance|MM|NULL|0.000|0|0|NULL|NULL|
+72|ME|12345612345600007|131108092905|0|Running Running|0.000|0.000|Purge4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Stay Time|S|NULL|0.000|0|0|NULL|NULL|
+73|ME|12345612345600007|131108092905|0|Running Running|0.000|0.000|Purge4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve On Time|S|NULL|0.020|0|0|NULL|NULL|
+74|ME|12345612345600007|131108092905|0|Running Running|0.000|0.000|Purge4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Shut Off Distance|MM|NULL|0|0|0|NULL|NULL|
+75|ME|12345612345600007|131108092905|0|Running Running|0.000|0.000|Purge4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Start Distance|MM|NULL|0.000|0|0|NULL|NULL|
+76|ME|12345612345600007|131108092905|0|Running Running|0.000|0.000|Purge4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|End Distance|MM|NULL|0.000|0|0|NULL|NULL|
+77|ME|12345612345600007|131108092906|0|Running Running|0.000|0.000|Purge5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Purge5X|MM|NULL|240.788|0|0|NULL|NULL|
+78|ME|12345612345600007|131108092906|0|Running Running|0.000|0.000|Purge5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Purge5Y|MM|NULL|1.046|0|0|NULL|NULL|
+79|ME|12345612345600007|131108092906|0|Running Running|0.000|0.000|Purge5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Z|MM|NULL|52.652|0|0|NULL|NULL|
+80|ME|12345612345600007|131108092906|0|Running Running|0.000|0.000|Purge5|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Dispense Mode|NULL|NULL|0|0|0|Line|NULL|
+81|ME|12345612345600007|131108092906|0|Running Running|0.000|0.000|Purge5|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Valve Type|NULL|NULL|0|0|0|Needle Valve|NULL|
+82|ME|12345612345600007|131108092906|0|Running Running|0.000|0.000|Purge5|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Teach Mode|NULL|NULL|0|0|0|By Nozzle|NULL|
+83|ME|12345612345600007|131108092906|0|Running Running|0.000|0.000|Purge5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Tilt Angle|Deg|NULL|0|0|0|NULL|NULL|
+84|ME|12345612345600007|131108092906|0|Running Running|0.000|0.000|Purge5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Rotation Angle|Deg|NULL|0|0|0|NULL|NULL|
+85|ME|12345612345600007|131108092906|0|Running Running|0.000|0.000|Purge5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Speed|MM/S|NULL|80.000|0|0|NULL|NULL|
+86|ME|12345612345600007|131108092906|0|Running Running|0.000|0.000|Purge5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Pre-Spray|S|NULL|0.000|0|0|NULL|NULL|
+87|ME|12345612345600007|131108092906|0|Running Running|0.000|0.000|Purge5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Pre-On|MM|NULL|0.000|0|0|NULL|NULL|
+88|ME|12345612345600007|131108092906|0|Running Running|0.000|0.000|Purge5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve On Delay|S|NULL|0.000|0|0|NULL|NULL|
+89|ME|12345612345600007|131108092906|0|Running Running|0.000|0.000|Purge5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Spray Gap|MM|NULL|0.000|0|0|NULL|NULL|
+90|ME|12345612345600007|131108092906|0|Running Running|0.000|0.000|Purge5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Pull Back Distance|MM|NULL|0.000|0|0|NULL|NULL|
+91|ME|12345612345600007|131108092906|0|Running Running|0.000|0.000|Purge5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Stay Time|S|NULL|0.000|0|0|NULL|NULL|
+92|ME|12345612345600007|131108092906|0|Running Running|0.000|0.000|Purge5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve On Time|S|NULL|0.020|0|0|NULL|NULL|
+93|ME|12345612345600007|131108092906|0|Running Running|0.000|0.000|Purge5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Shut Off Distance|MM|NULL|0|0|0|NULL|NULL|
+94|ME|12345612345600007|131108092906|0|Running Running|0.000|0.000|Purge5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Start Distance|MM|NULL|0.000|0|0|NULL|NULL|
+95|ME|12345612345600007|131108092906|0|Running Running|0.000|0.000|Purge5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|End Distance|MM|NULL|0.000|0|0|NULL|NULL|
+96|ME|12345612345600007|131108092906|0|Running Running|0.000|0.000|Purge6|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Purge6X|MM|NULL|240.788|0|0|NULL|NULL|
+97|ME|12345612345600007|131108092906|0|Running Running|0.000|0.000|Purge6|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Purge6Y|MM|NULL|1.046|0|0|NULL|NULL|
+98|ME|12345612345600007|131108092906|0|Running Running|0.000|0.000|Purge6|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Z|MM|NULL|52.652|0|0|NULL|NULL|
+99|ME|12345612345600007|131108092906|0|Running Running|0.000|0.000|Purge6|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Dispense Mode|NULL|NULL|0|0|0|Line|NULL|
+100|ME|12345612345600007|131108092906|0|Running Running|0.000|0.000|Purge6|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Valve Type|NULL|NULL|0|0|0|Needle Valve|NULL|
+101|ME|12345612345600007|131108092906|0|Running Running|0.000|0.000|Purge6|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Teach Mode|NULL|NULL|0|0|0|By Nozzle|NULL|
+102|ME|12345612345600007|131108092906|0|Running Running|0.000|0.000|Purge6|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Tilt Angle|Deg|NULL|0|0|0|NULL|NULL|
+103|ME|12345612345600007|131108092906|0|Running Running|0.000|0.000|Purge6|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Rotation Angle|Deg|NULL|0|0|0|NULL|NULL|
+104|ME|12345612345600007|131108092906|0|Running Running|0.000|0.000|Purge6|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Speed|MM/S|NULL|80.000|0|0|NULL|NULL|
+105|ME|12345612345600007|131108092906|0|Running Running|0.000|0.000|Purge6|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Pre-Spray|S|NULL|0.000|0|0|NULL|NULL|
+106|ME|12345612345600007|131108092906|0|Running Running|0.000|0.000|Purge6|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Pre-On|MM|NULL|0.000|0|0|NULL|NULL|
+107|ME|12345612345600007|131108092906|0|Running Running|0.000|0.000|Purge6|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve On Delay|S|NULL|0.000|0|0|NULL|NULL|
+108|ME|12345612345600007|131108092906|0|Running Running|0.000|0.000|Purge6|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Spray Gap|MM|NULL|0.000|0|0|NULL|NULL|
+109|ME|12345612345600007|131108092906|0|Running Running|0.000|0.000|Purge6|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Pull Back Distance|MM|NULL|0.000|0|0|NULL|NULL|
+110|ME|12345612345600007|131108092906|0|Running Running|0.000|0.000|Purge6|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Stay Time|S|NULL|0.000|0|0|NULL|NULL|
+111|ME|12345612345600007|131108092906|0|Running Running|0.000|0.000|Purge6|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve On Time|S|NULL|0.020|0|0|NULL|NULL|
+112|ME|12345612345600007|131108092906|0|Running Running|0.000|0.000|Purge6|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Shut Off Distance|MM|NULL|0|0|0|NULL|NULL|
+113|ME|12345612345600007|131108092906|0|Running Running|0.000|0.000|Purge6|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Start Distance|MM|NULL|0.000|0|0|NULL|NULL|
+114|ME|12345612345600007|131108092906|0|Running Running|0.000|0.000|Purge6|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|End Distance|MM|NULL|0.000|0|0|NULL|NULL|
+115|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Move1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Move1X|MM|NULL|275.206|0|0|NULL|NULL|
+116|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Move1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Move1Y|MM|NULL|137.928|0|0|NULL|NULL|
+117|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Move1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Z|MM|NULL|16.054|0|0|NULL|NULL|
+118|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Move1|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Dispense Mode|NULL|NULL|0|0|0|Line|NULL|
+119|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Move1|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Valve Type|NULL|NULL|0|0|0|Needle Valve|NULL|
+120|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Move1|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Teach Mode|NULL|NULL|0|0|0|By Camera|NULL|
+121|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Move1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Tilt Angle|Deg|NULL|0|0|0|NULL|NULL|
+122|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Move1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Rotation Angle|Deg|NULL|0|0|0|NULL|NULL|
+123|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Move1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Speed|MM/S|NULL|80.000|0|0|NULL|NULL|
+124|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Move1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Pre-Spray|S|NULL|0.000|0|0|NULL|NULL|
+125|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Move1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Pre-On|MM|NULL|0.000|0|0|NULL|NULL|
+126|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Move1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve On Delay|S|NULL|0.000|0|0|NULL|NULL|
+127|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Move1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Spray Gap|MM|NULL|4.000|0|0|NULL|NULL|
+128|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Move1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Pull Back Distance|MM|NULL|0.000|0|0|NULL|NULL|
+129|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Move1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Stay Time|S|NULL|0.000|0|0|NULL|NULL|
+130|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Move1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve On Time|S|NULL|0.010|0|0|NULL|NULL|
+131|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Move1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Shut Off Distance|MM|NULL|0|0|0|NULL|NULL|
+132|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Move1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Start Distance|MM|NULL|0|0|0|NULL|NULL|
+133|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Move1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|End Distance|MM|NULL|0|0|0|NULL|NULL|
+134|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Line1X|MM|NULL|276.772|0|0|NULL|NULL|
+135|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Line1Y|MM|NULL|133.672|0|0|NULL|NULL|
+136|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Z|MM|NULL|16.054|0|0|NULL|NULL|
+137|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line1|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Dispense Mode|NULL|NULL|0|0|0|Line|NULL|
+138|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line1|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Valve Type|NULL|NULL|0|0|0|Needle Valve|NULL|
+139|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line1|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Teach Mode|NULL|NULL|0|0|0|By Camera|NULL|
+140|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Tilt Angle|Deg|NULL|0|0|0|NULL|NULL|
+141|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Rotation Angle|Deg|NULL|0|0|0|NULL|NULL|
+142|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Speed|MM/S|NULL|80.000|0|0|NULL|NULL|
+143|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Pre-Spray|S|NULL|0.000|0|0|NULL|NULL|
+144|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Pre-On|MM|NULL|0.000|0|0|NULL|NULL|
+145|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve On Delay|S|NULL|0.000|0|0|NULL|NULL|
+146|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Spray Gap|MM|NULL|4.000|0|0|NULL|NULL|
+147|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Pull Back Distance|MM|NULL|0.000|0|0|NULL|NULL|
+148|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Stay Time|S|NULL|0.000|0|0|NULL|NULL|
+149|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve On Time|S|NULL|0.010|0|0|NULL|NULL|
+150|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Shut Off Distance|MM|NULL|0.000|0|0|NULL|NULL|
+151|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Start Distance|MM|NULL|0.000|0|0|NULL|NULL|
+152|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|End Distance|MM|NULL|0.000|0|0|NULL|NULL|
+153|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Line1X|MM|NULL|276.772|0|0|NULL|NULL|
+154|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Line1Y|MM|NULL|118.636|0|0|NULL|NULL|
+155|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Z|MM|NULL|16.054|0|0|NULL|NULL|
+156|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line1|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Dispense Mode|NULL|NULL|0|0|0|Off|NULL|
+157|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line1|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Valve Type|NULL|NULL|0|0|0|Needle Valve|NULL|
+158|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line1|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Teach Mode|NULL|NULL|0|0|0|By Camera|NULL|
+159|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Tilt Angle|Deg|NULL|0|0|0|NULL|NULL|
+160|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Rotation Angle|Deg|NULL|0|0|0|NULL|NULL|
+161|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Speed|MM/S|NULL|80.000|0|0|NULL|NULL|
+162|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Pre-Spray|S|NULL|0.000|0|0|NULL|NULL|
+163|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Pre-On|MM|NULL|0.000|0|0|NULL|NULL|
+164|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve On Delay|S|NULL|0.000|0|0|NULL|NULL|
+165|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Spray Gap|MM|NULL|4.000|0|0|NULL|NULL|
+166|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Pull Back Distance|MM|NULL|0.000|0|0|NULL|NULL|
+167|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Stay Time|S|NULL|0.000|0|0|NULL|NULL|
+168|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve On Time|S|NULL|0.010|0|0|NULL|NULL|
+169|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Shut Off Distance|MM|NULL|0.000|0|0|NULL|NULL|
+170|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Start Distance|MM|NULL|0.000|0|0|NULL|NULL|
+171|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line1|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|End Distance|MM|NULL|0.000|0|0|NULL|NULL|
+172|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Line2X|MM|NULL|279.774|0|0|NULL|NULL|
+173|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Line2Y|MM|NULL|119.386|0|0|NULL|NULL|
+174|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Z|MM|NULL|16.054|0|0|NULL|NULL|
+175|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line2|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Dispense Mode|NULL|NULL|0|0|0|Line|NULL|
+176|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line2|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Valve Type|NULL|NULL|0|0|0|Needle Valve|NULL|
+177|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line2|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Teach Mode|NULL|NULL|0|0|0|By Camera|NULL|
+178|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Tilt Angle|Deg|NULL|0|0|0|NULL|NULL|
+179|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Rotation Angle|Deg|NULL|0|0|0|NULL|NULL|
+180|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Speed|MM/S|NULL|80.000|0|0|NULL|NULL|
+181|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Pre-Spray|S|NULL|0.000|0|0|NULL|NULL|
+182|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Pre-On|MM|NULL|0.000|0|0|NULL|NULL|
+183|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve On Delay|S|NULL|0.000|0|0|NULL|NULL|
+184|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Spray Gap|MM|NULL|4.000|0|0|NULL|NULL|
+185|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Pull Back Distance|MM|NULL|0.000|0|0|NULL|NULL|
+186|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Stay Time|S|NULL|0.000|0|0|NULL|NULL|
+187|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve On Time|S|NULL|0.010|0|0|NULL|NULL|
+188|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Shut Off Distance|MM|NULL|0.000|0|0|NULL|NULL|
+189|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Start Distance|MM|NULL|0.000|0|0|NULL|NULL|
+190|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|End Distance|MM|NULL|0.000|0|0|NULL|NULL|
+191|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Line2X|MM|NULL|299.178|0|0|NULL|NULL|
+192|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Line2Y|MM|NULL|119.386|0|0|NULL|NULL|
+193|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Z|MM|NULL|16.054|0|0|NULL|NULL|
+194|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line2|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Dispense Mode|NULL|NULL|0|0|0|Off|NULL|
+195|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line2|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Valve Type|NULL|NULL|0|0|0|Needle Valve|NULL|
+196|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line2|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Teach Mode|NULL|NULL|0|0|0|By Camera|NULL|
+197|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Tilt Angle|Deg|NULL|0|0|0|NULL|NULL|
+198|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Rotation Angle|Deg|NULL|0|0|0|NULL|NULL|
+199|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Speed|MM/S|NULL|80.000|0|0|NULL|NULL|
+200|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Pre-Spray|S|NULL|0.000|0|0|NULL|NULL|
+201|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Pre-On|MM|NULL|0.000|0|0|NULL|NULL|
+202|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve On Delay|S|NULL|0.000|0|0|NULL|NULL|
+203|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Spray Gap|MM|NULL|4.000|0|0|NULL|NULL|
+204|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Pull Back Distance|MM|NULL|0.000|0|0|NULL|NULL|
+205|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Stay Time|S|NULL|0.000|0|0|NULL|NULL|
+206|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve On Time|S|NULL|0.010|0|0|NULL|NULL|
+207|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Shut Off Distance|MM|NULL|0.000|0|0|NULL|NULL|
+208|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Start Distance|MM|NULL|0.000|0|0|NULL|NULL|
+209|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line2|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|End Distance|MM|NULL|0.000|0|0|NULL|NULL|
+210|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Line3X|MM|NULL|299.178|0|0|NULL|NULL|
+211|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Line3Y|MM|NULL|122.954|0|0|NULL|NULL|
+212|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Z|MM|NULL|16.054|0|0|NULL|NULL|
+213|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line3|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Dispense Mode|NULL|NULL|0|0|0|Line|NULL|
+214|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line3|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Valve Type|NULL|NULL|0|0|0|Needle Valve|NULL|
+215|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line3|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Teach Mode|NULL|NULL|0|0|0|By Camera|NULL|
+216|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Tilt Angle|Deg|NULL|0|0|0|NULL|NULL|
+217|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Rotation Angle|Deg|NULL|0|0|0|NULL|NULL|
+218|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Speed|MM/S|NULL|80.000|0|0|NULL|NULL|
+219|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Pre-Spray|S|NULL|0.000|0|0|NULL|NULL|
+220|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Pre-On|MM|NULL|0.000|0|0|NULL|NULL|
+221|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve On Delay|S|NULL|0.000|0|0|NULL|NULL|
+222|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Spray Gap|MM|NULL|4.000|0|0|NULL|NULL|
+223|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Pull Back Distance|MM|NULL|0.000|0|0|NULL|NULL|
+224|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Stay Time|S|NULL|0.000|0|0|NULL|NULL|
+225|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve On Time|S|NULL|0.010|0|0|NULL|NULL|
+226|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Shut Off Distance|MM|NULL|0.000|0|0|NULL|NULL|
+227|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Start Distance|MM|NULL|0.000|0|0|NULL|NULL|
+228|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|End Distance|MM|NULL|0.000|0|0|NULL|NULL|
+229|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Line3X|MM|NULL|277.906|0|0|NULL|NULL|
+230|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Line3Y|MM|NULL|122.954|0|0|NULL|NULL|
+231|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Z|MM|NULL|16.054|0|0|NULL|NULL|
+232|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line3|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Dispense Mode|NULL|NULL|0|0|0|Off|NULL|
+233|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line3|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Valve Type|NULL|NULL|0|0|0|Needle Valve|NULL|
+234|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line3|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Teach Mode|NULL|NULL|0|0|0|By Camera|NULL|
+235|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Tilt Angle|Deg|NULL|0|0|0|NULL|NULL|
+236|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Rotation Angle|Deg|NULL|0|0|0|NULL|NULL|
+237|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Speed|MM/S|NULL|80.000|0|0|NULL|NULL|
+238|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Pre-Spray|S|NULL|0.000|0|0|NULL|NULL|
+239|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Pre-On|MM|NULL|0.000|0|0|NULL|NULL|
+240|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve On Delay|S|NULL|0.000|0|0|NULL|NULL|
+241|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Spray Gap|MM|NULL|4.000|0|0|NULL|NULL|
+242|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Pull Back Distance|MM|NULL|0.000|0|0|NULL|NULL|
+243|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Stay Time|S|NULL|0.000|0|0|NULL|NULL|
+244|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve On Time|S|NULL|0.010|0|0|NULL|NULL|
+245|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Shut Off Distance|MM|NULL|0.000|0|0|NULL|NULL|
+246|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Start Distance|MM|NULL|0.000|0|0|NULL|NULL|
+247|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line3|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|End Distance|MM|NULL|0.000|0|0|NULL|NULL|
+248|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Line4X|MM|NULL|277.906|0|0|NULL|NULL|
+249|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Line4Y|MM|NULL|126.454|0|0|NULL|NULL|
+250|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Z|MM|NULL|16.054|0|0|NULL|NULL|
+251|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line4|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Dispense Mode|NULL|NULL|0|0|0|Line|NULL|
+252|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line4|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Valve Type|NULL|NULL|0|0|0|Needle Valve|NULL|
+253|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line4|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Teach Mode|NULL|NULL|0|0|0|By Camera|NULL|
+254|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Tilt Angle|Deg|NULL|0|0|0|NULL|NULL|
+255|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Rotation Angle|Deg|NULL|0|0|0|NULL|NULL|
+256|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Speed|MM/S|NULL|80.000|0|0|NULL|NULL|
+257|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Pre-Spray|S|NULL|0.000|0|0|NULL|NULL|
+258|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Pre-On|MM|NULL|0.000|0|0|NULL|NULL|
+259|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve On Delay|S|NULL|0.000|0|0|NULL|NULL|
+260|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Spray Gap|MM|NULL|4.000|0|0|NULL|NULL|
+261|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Pull Back Distance|MM|NULL|0.000|0|0|NULL|NULL|
+262|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Stay Time|S|NULL|0.000|0|0|NULL|NULL|
+263|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve On Time|S|NULL|0.010|0|0|NULL|NULL|
+264|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Shut Off Distance|MM|NULL|0.000|0|0|NULL|NULL|
+265|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Start Distance|MM|NULL|0.000|0|0|NULL|NULL|
+266|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|End Distance|MM|NULL|0.000|0|0|NULL|NULL|
+267|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Line4X|MM|NULL|299.106|0|0|NULL|NULL|
+268|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Line4Y|MM|NULL|126.454|0|0|NULL|NULL|
+269|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Z|MM|NULL|16.054|0|0|NULL|NULL|
+270|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line4|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Dispense Mode|NULL|NULL|0|0|0|Off|NULL|
+271|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line4|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Valve Type|NULL|NULL|0|0|0|Needle Valve|NULL|
+272|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line4|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Teach Mode|NULL|NULL|0|0|0|By Camera|NULL|
+273|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Tilt Angle|Deg|NULL|0|0|0|NULL|NULL|
+274|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Rotation Angle|Deg|NULL|0|0|0|NULL|NULL|
+275|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Speed|MM/S|NULL|80.000|0|0|NULL|NULL|
+276|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Pre-Spray|S|NULL|0.000|0|0|NULL|NULL|
+277|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Pre-On|MM|NULL|0.000|0|0|NULL|NULL|
+278|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve On Delay|S|NULL|0.000|0|0|NULL|NULL|
+279|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Spray Gap|MM|NULL|4.000|0|0|NULL|NULL|
+280|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Pull Back Distance|MM|NULL|0.000|0|0|NULL|NULL|
+281|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Stay Time|S|NULL|0.000|0|0|NULL|NULL|
+282|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve On Time|S|NULL|0.010|0|0|NULL|NULL|
+283|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Shut Off Distance|MM|NULL|0.000|0|0|NULL|NULL|
+284|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Start Distance|MM|NULL|0.000|0|0|NULL|NULL|
+285|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|End Distance|MM|NULL|0.000|0|0|NULL|NULL|
+286|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Line5X|MM|NULL|299.082|0|0|NULL|NULL|
+287|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Line5Y|MM|NULL|129.498|0|0|NULL|NULL|
+288|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Z|MM|NULL|16.054|0|0|NULL|NULL|
+289|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line5|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Dispense Mode|NULL|NULL|0|0|0|Line|NULL|
+290|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line5|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Valve Type|NULL|NULL|0|0|0|Needle Valve|NULL|
+291|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line5|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Teach Mode|NULL|NULL|0|0|0|By Camera|NULL|
+292|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Tilt Angle|Deg|NULL|0|0|0|NULL|NULL|
+293|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Rotation Angle|Deg|NULL|0|0|0|NULL|NULL|
+294|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Speed|MM/S|NULL|80.000|0|0|NULL|NULL|
+295|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Pre-Spray|S|NULL|0.000|0|0|NULL|NULL|
+296|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Pre-On|MM|NULL|0.000|0|0|NULL|NULL|
+297|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve On Delay|S|NULL|0.000|0|0|NULL|NULL|
+298|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Spray Gap|MM|NULL|4.000|0|0|NULL|NULL|
+299|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Pull Back Distance|MM|NULL|0.000|0|0|NULL|NULL|
+300|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Stay Time|S|NULL|0.000|0|0|NULL|NULL|
+301|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve On Time|S|NULL|0.010|0|0|NULL|NULL|
+302|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Shut Off Distance|MM|NULL|0.000|0|0|NULL|NULL|
+303|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Start Distance|MM|NULL|0.000|0|0|NULL|NULL|
+304|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|End Distance|MM|NULL|0.000|0|0|NULL|NULL|
+305|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Line5X|MM|NULL|279.870|0|0|NULL|NULL|
+306|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Line5Y|MM|NULL|129.498|0|0|NULL|NULL|
+307|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Z|MM|NULL|16.054|0|0|NULL|NULL|
+308|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line5|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Dispense Mode|NULL|NULL|0|0|0|Off|NULL|
+309|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line5|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Valve Type|NULL|NULL|0|0|0|Needle Valve|NULL|
+310|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line5|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Teach Mode|NULL|NULL|0|0|0|By Camera|NULL|
+311|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Tilt Angle|Deg|NULL|0|0|0|NULL|NULL|
+312|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Rotation Angle|Deg|NULL|0|0|0|NULL|NULL|
+313|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Speed|MM/S|NULL|80.000|0|0|NULL|NULL|
+314|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Pre-Spray|S|NULL|0.000|0|0|NULL|NULL|
+315|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Pre-On|MM|NULL|0.000|0|0|NULL|NULL|
+316|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve On Delay|S|NULL|0.000|0|0|NULL|NULL|
+317|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Spray Gap|MM|NULL|4.000|0|0|NULL|NULL|
+318|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Pull Back Distance|MM|NULL|0.000|0|0|NULL|NULL|
+319|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Stay Time|S|NULL|0.000|0|0|NULL|NULL|
+320|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve On Time|S|NULL|0.010|0|0|NULL|NULL|
+321|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Shut Off Distance|MM|NULL|0.000|0|0|NULL|NULL|
+322|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Start Distance|MM|NULL|0.000|0|0|NULL|NULL|
+323|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Line5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|End Distance|MM|NULL|0.000|0|0|NULL|NULL|
+324|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Dot4X|MM|NULL|297.240|0|0|NULL|NULL|
+325|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Dot4Y|MM|NULL|124.296|0|0|NULL|NULL|
+326|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Z|MM|NULL|16.054|0|0|NULL|NULL|
+327|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot4|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Dispense Mode|NULL|NULL|0|0|0|Line|NULL|
+328|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot4|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Valve Type|NULL|NULL|0|0|0|Needle Valve|NULL|
+329|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot4|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Teach Mode|NULL|NULL|0|0|0|By Camera|NULL|
+330|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Tilt Angle|Deg|NULL|0|0|0|NULL|NULL|
+331|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Rotation Angle|Deg|NULL|0|0|0|NULL|NULL|
+332|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Speed|MM/S|NULL|80.000|0|0|NULL|NULL|
+333|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Pre-Spray|S|NULL|0.000|0|0|NULL|NULL|
+334|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Pre-On|MM|NULL|0.000|0|0|NULL|NULL|
+335|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve On Delay|S|NULL|0.000|0|0|NULL|NULL|
+336|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Spray Gap|MM|NULL|4.000|0|0|NULL|NULL|
+337|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Pull Back Distance|MM|NULL|0.000|0|0|NULL|NULL|
+338|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Stay Time|S|NULL|0.000|0|0|NULL|NULL|
+339|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve On Time|S|NULL|0.010|0|0|NULL|NULL|
+340|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Shut Off Distance|MM|NULL|0|0|0|NULL|NULL|
+341|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Start Distance|MM|NULL|0|0|0|NULL|NULL|
+342|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot4|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|End Distance|MM|NULL|0|0|0|NULL|NULL|
+343|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Dot5X|MM|NULL|291.406|0|0|NULL|NULL|
+344|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Dot5Y|MM|NULL|132.678|0|0|NULL|NULL|
+345|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Z|MM|NULL|16.054|0|0|NULL|NULL|
+346|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot5|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Dispense Mode|NULL|NULL|0|0|0|Line|NULL|
+347|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot5|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Valve Type|NULL|NULL|0|0|0|Needle Valve|NULL|
+348|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot5|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Teach Mode|NULL|NULL|0|0|0|By Camera|NULL|
+349|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Tilt Angle|Deg|NULL|0|0|0|NULL|NULL|
+350|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Rotation Angle|Deg|NULL|0|0|0|NULL|NULL|
+351|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Speed|MM/S|NULL|80.000|0|0|NULL|NULL|
+352|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Pre-Spray|S|NULL|0.000|0|0|NULL|NULL|
+353|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Pre-On|MM|NULL|0.000|0|0|NULL|NULL|
+354|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve On Delay|S|NULL|0.000|0|0|NULL|NULL|
+355|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Spray Gap|MM|NULL|4.000|0|0|NULL|NULL|
+356|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Pull Back Distance|MM|NULL|0.000|0|0|NULL|NULL|
+357|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Stay Time|S|NULL|0.000|0|0|NULL|NULL|
+358|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve On Time|S|NULL|0.010|0|0|NULL|NULL|
+359|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Shut Off Distance|MM|NULL|0|0|0|NULL|NULL|
+360|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Start Distance|MM|NULL|0|0|0|NULL|NULL|
+361|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot5|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|End Distance|MM|NULL|0|0|0|NULL|NULL|
+362|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot6|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Dot6X|MM|NULL|293.156|0|0|NULL|NULL|
+363|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot6|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Dot6Y|MM|NULL|116.214|0|0|NULL|NULL|
+364|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot6|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Z|MM|NULL|16.054|0|0|NULL|NULL|
+365|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot6|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Dispense Mode|NULL|NULL|0|0|0|Line|NULL|
+366|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot6|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Valve Type|NULL|NULL|0|0|0|Needle Valve|NULL|
+367|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot6|Passed||0||1|1|0|1|0|0|Main|StringValueTest|Passed|Teach Mode|NULL|NULL|0|0|0|By Camera|NULL|
+368|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot6|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Tilt Angle|Deg|NULL|0|0|0|NULL|NULL|
+369|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot6|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Rotation Angle|Deg|NULL|0|0|0|NULL|NULL|
+370|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot6|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Speed|MM/S|NULL|80.000|0|0|NULL|NULL|
+371|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot6|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Pre-Spray|S|NULL|0.000|0|0|NULL|NULL|
+372|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot6|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve Pre-On|MM|NULL|0.000|0|0|NULL|NULL|
+373|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot6|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve On Delay|S|NULL|0.000|0|0|NULL|NULL|
+374|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot6|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Spray Gap|MM|NULL|4.000|0|0|NULL|NULL|
+375|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot6|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Pull Back Distance|MM|NULL|10.000|0|0|NULL|NULL|
+376|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot6|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Stay Time|S|NULL|0.000|0|0|NULL|NULL|
+377|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot6|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Valve On Time|S|NULL|0.010|0|0|NULL|NULL|
+378|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot6|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Shut Off Distance|MM|NULL|0|0|0|NULL|NULL|
+379|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot6|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|Start Distance|MM|NULL|0|0|0|NULL|NULL|
+380|ME|12345612345600007|131108092907|0|Running Running|0.000|0.000|Dot6|Passed||0||1|1|0|1|0|0|Main|NI_MultipleNumericLimitTest|Passed|End Distance|MM|NULL|0|0|0|NULL|NULL|
